@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'TT Chocolates Regular';
+  src: url(fuentes/TTChocolates-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Chocolates Bold';
+  src: url(fuentes/TTChocolates-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Chocolates Light';
+  src: url(fuentes/TTChocolates-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+.container {
+  background-color: #ADBC9F;
+  padding: 20px;
+  margin: 15px;
+}
+
+h1, h2 {
+  color: #12372A;
+  font-family: 'TT Chocolates Regular';
+  font-weight: 600;
+}
+
+.click-example {
+  background-color: #FBFADA;
+  color: black;
+  padding: 50px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-family: 'TT Chocolates Bold';
+  border: 3.7px solid #12372A;
+}
+
+.focus-example {
+  background-color: #FBFADA;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-family: 'TT Chocolates Light';
+  font-size: 20px;
+}
+
+.mouseover-example {
+  color: black;
+  font-family: 'TT Chocolates Regular';
+  font-size: 40px;
+  padding-top: 60px;
+  padding-right: 50px;
+}
+
+.f{
+  font-family: 'TT Chocolates Bold';
+  text-align: center;
+}
